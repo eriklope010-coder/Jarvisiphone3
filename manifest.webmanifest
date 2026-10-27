@@ -1,0 +1,11 @@
+{
+  "name": "JARVIS — Asistente personal",
+  "short_name": "JARVIS",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070a15",
+  "theme_color": "#080b18",
+  "description": "Asistente personal experimental para iPhone"
+}

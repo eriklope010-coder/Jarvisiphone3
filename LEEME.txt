@@ -1,0 +1,19 @@
+JARVIS iPhone 4 — IA local experimental
+
+Esta versión conserva la interfaz y los accesos directos del proyecto original e incorpora un botón para intentar cargar un modelo de IA local mediante WebLLM.
+
+IMPORTANTE:
+- Es experimental y no está garantizado que funcione en iPhone 15 normal.
+- Requiere GitHub Pages/HTTPS, un navegador compatible con WebGPU y memoria suficiente.
+- La primera carga descarga pesos del modelo desde Internet (puede ser una descarga grande).
+- Cuando el modelo ya está cargado, la inferencia se intenta ejecutar localmente; no se configura una API remota.
+- Si falla, los comandos preprogramados siguen disponibles.
+- El reconocimiento de voz y la voz hablada dependen de las capacidades de Safari/iOS.
+- No es una app nativa de App Store; se puede añadir a la pantalla de inicio desde Safari.
+
+Instalación:
+1. En GitHub, abre el repositorio Jarvis-iphone4.
+2. Sube/reemplaza los archivos del ZIP manteniendo los nombres.
+3. Espera a que GitHub Pages termine el despliegue.
+4. Abre el sitio HTTPS en Safari y prueba primero el botón “Cargar IA local”.
+5. Si no carga, envía el mensaje exacto que aparece en el estado de IA local.
